@@ -21,8 +21,8 @@ colours don't. Call it a work in progress. Any suggestions?
 
 Mousing over pixels shows you the words behind it.
 
-In [MyPanel.java](src/main/java/com/tobyandzuzka/som/ui/MyPanel).iterationComplete there's a sleep() call to slow down the training so you can see what's going on better. If
+In [MyPanel.java](src/main/java/com/tobyandzuzka/som/ui/MyPanel.java).iterationComplete there's a sleep() call to slow down the training so you can see what's going on better. If
 you remove it then it'll train faster but won't look as fun.
 
-In [MyPanel.java](src/main/java/com/tobyandzuzka/som/ui/MyPanel).foundBestMatchingUnit() you can comment out the drawSquare() and drawCircle() methods if you like. These just
+In [MyPanel.java](src/main/java/com/tobyandzuzka/som/ui/MyPanel.java).foundBestMatchingUnit() you can comment out the drawSquare() and drawCircle() methods if you like. These just
 show the cluster centroids and the "area of influence" for the centroid.
