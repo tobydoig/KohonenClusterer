@@ -2,6 +2,8 @@
 Given an M*N matrix of randomly coloured pixels, use a Kohonen Self-Organising map algorithm to cluster the pixels such
 that same/similar coloured pixels appear together. Just run it, it's kinda cool to watch it iterate.
 
+ ![Screenshot](screenshot.png)
+
 Much inspiration taken from [ai-junkie](http://www.ai-junkie.com/ann/som/som1.html).
 
 # Build / Run
